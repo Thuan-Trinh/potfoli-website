@@ -1,0 +1,43 @@
+:root{
+    font-family: "Noto Sans", sans-serif;
+    --bg-color: #0F172A;
+    --bgCard-color:rgba(19, 28, 49, 1);
+    --borderCard-color: rgba(34, 47, 67, 1);
+
+    --brand-color-brand: linear-gradient(270deg, #0BD1D1 0%, #0EA5EA 100%);
+    --brand-color-base: rgba(14, 165, 234, 1);
+    --brand-color-01: #CFEDFB;
+    --brand-color-02: #AFE1F8;
+    --brand-color-03: rgba(134, 210, 244, 1);
+    --brand-color-04: #5EC3F1;
+    --brand-color-05: #36B4ED;
+    --brand-color-06: #0C89C3;
+    --brand-color-07: #096E9C;
+    --brand-color-08: #075275;
+    --brand-color-09: #05374E;
+    --brand-color-10: #03212F;
+
+    font-size: 16px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+a,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--brand-color-01);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+.container{
+    /* max-width: 1440px; */
+    margin: 0px auto;
+    padding: 0px 150px;
+}
