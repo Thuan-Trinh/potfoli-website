@@ -109,13 +109,33 @@ body {
   position: relative;
 }
 
+.nav-header ul li a:hover{
+  color: var(--brand-color-base);
+}
+
+.active{
+  color: var(--brand-color-base) !important;
+}
+
+.active::after{
+  content: "";
+  width: 60%;
+  height: 0.1rem;
+  background: var(--brand-color-base);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -0.1875rem;
+}
+
 nav ul li a::after {
   content: "";
   width: 0;
-  height: 0.1875rem;
+  height: 0.1rem;
   background: var(--brand-color-base);
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%);
   bottom: -0.1875rem;
   transition: 0.5s;
 }
